@@ -17,17 +17,33 @@ El sistema actúa como un puente entre una base de datos de concesiones (archivo
 
 # ⚙️ Instalación y Configuración
 1. Clonar el repositorio:
-```Bash
+```console
 git clone https://github.com/tu-usuario/EstancoTracker.git
 cd EstancoTracker
 ```
 
 2. Instalar dependencias:
-Bash
+```console
 pip install -r requirements.txt
-
+```
 3. Configurar la Clave de API:
 Por seguridad, la API Key no debe incluirse en el código fuente. Configura tu variable de entorno en tu sistema o terminal antes de ejecutar:
-- Windows (CMD): set GOOGLE_API_KEY="tu_clave_aqui"
-- Windows (PowerShell): $env:GOOGLE_API_KEY="tu_clave_aqui"
-- Mac/Linux: export GOOGLE_API_KEY="tu_clave_aqui"
+- Windows (CMD): `set GOOGLE_API_KEY="tu_clave_aqui"`
+- Windows (PowerShell): `$env:GOOGLE_API_KEY="tu_clave_aqui"`
+- Mac/Linux: `export GOOGLE_API_KEY="tu_clave_aqui"`
+
+# 💻 Uso
+Ejecuta el script principal desde la terminal:
+```console
+python estancotracker.py
+```
+Una vez iniciada la consola interactiva, simplemente introduce el ID del estanco que deseas consultar:
+```console
+============================================================
+     BIENVENIDO A ESTANCOTRACKER v1.0
+============================================================
+Instrucciones: Introduce el ID del estanco (ej. MADRID-12 o ALOVERA)
+Escribe 'salir' en cualquier momento para cerrar el programa.
+
+Introduce el ID del estanco: BARCELONA-366
+```
