@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Reglas específicas de EstancoTracker ---
+# Ignorar bases de datos locales
+estancos.csv
+
+# Ignorar credenciales y variables de entorno
+credenciales.json
+.env
