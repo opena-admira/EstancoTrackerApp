@@ -17,9 +17,10 @@ El sistema actúa como un puente entre una base de datos de concesiones (archivo
 
 # ⚙️ Instalación y Configuración
 1. Clonar el repositorio:
-`Bash
+```Bash
 git clone https://github.com/tu-usuario/EstancoTracker.git
-cd EstancoTracker`
+cd EstancoTracker
+```
 
 2. Instalar dependencias:
 Bash
